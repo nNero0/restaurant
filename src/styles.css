@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    margin :0;
+    flex-direction: column;
+    background-color: #f1ead1;
+    font-family: "Caprasimo";
+    height: 100%;
+}
+
+
+.main{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+header{
+    background-color: #097d4c;
+    display: flex;
+    padding:8px;
+    gap:8px;
+
+    color: #f1ead1;
+
+}
+.vl {
+  border-left: 6px solid hsla(155, 83%, 14%, 0.467);;
+  height:100%;
+  border-radius: 16px;
+}
+#title{
+    font-size: 32px;
+}
+#navbox{
+    padding-left: 32px;
+    display: flex;
+    gap:16px;
+    align-items: center;
+    font-size: 20px;
+}
+#namebox{
+    display: flex;
+    gap: 8px;
+}
+
+img{
+    width: 100%;
+    border-radius: 16px;
+    
+}
+#Menu_content{
+    justify-content: center;
+    align-items:  center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    gap: 16px;
+
+}
